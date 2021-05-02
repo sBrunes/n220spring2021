@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+
+    <div style="height: 60px;"><button onclick="reset()" style="width: 100px; height: 40px;">Reset</button></div>
+    <!-- Reset Button -->
+
+    <button onclick="addLetter(event)" letter-value="a" style="float: left; width: 40px; height: 40px;">a</button>
+    <button onclick="addLetter(event)" letter-value="b" style="float: left; width: 40px; height: 40px;">b</button>
+    <button onclick="addLetter(event)" letter-value="c" style="float: left; width: 40px; height: 40px;">c</button>
+    <button onclick="addLetter(event)" letter-value="d" style="float: left; width: 40px; height: 40px;">d</button>
+    <button onclick="addLetter(event)" letter-value="e" style="float: left; width: 40px; height: 40px;">e</button>
+    <button onclick="addLetter(event)" letter-value="f" style="float: left; width: 40px; height: 40px;">f</button>
+    <button onclick="addLetter(event)" letter-value="g" style="float: left; width: 40px; height: 40px;">g</button>
+    <button onclick="addLetter(event)" letter-value="h" style="float: left; width: 40px; height: 40px;">h</button>
+    <button onclick="addLetter(event)" letter-value="i" style="float: left; width: 40px; height: 40px;">i</button>
+    <button onclick="addLetter(event)" letter-value="j" style="float: left; width: 40px; height: 40px;">j</button>
+    <button onclick="addLetter(event)" letter-value="k" style="float: left; width: 40px; height: 40px;">k</button>
+    <button onclick="addLetter(event)" letter-value="l" style="float: left; width: 40px; height: 40px;">l</button>
+    <button onclick="addLetter(event)" letter-value="m" style="float: left; width: 40px; height: 40px;">m</button>
+    <button onclick="addLetter(event)" letter-value="n" style="float: left; width: 40px; height: 40px;">n</button>
+    <button onclick="addLetter(event)" letter-value="o" style="float: left; width: 40px; height: 40px;">o</button>
+    <button onclick="addLetter(event)" letter-value="p" style="float: left; width: 40px; height: 40px;">p</button>
+    <button onclick="addLetter(event)" letter-value="q" style="float: left; width: 40px; height: 40px;">q</button>
+    <button onclick="addLetter(event)" letter-value="r" style="float: left; width: 40px; height: 40px;">r</button>
+    <button onclick="addLetter(event)" letter-value="s" style="float: left; width: 40px; height: 40px;">s</button>
+    <button onclick="addLetter(event)" letter-value="t" style="float: left; width: 40px; height: 40px;">t</button>
+    <button onclick="addLetter(event)" letter-value="u" style="float: left; width: 40px; height: 40px;">u</button>
+    <button onclick="addLetter(event)" letter-value="v" style="float: left; width: 40px; height: 40px;">v</button>
+    <button onclick="addLetter(event)" letter-value="w" style="float: left; width: 40px; height: 40px;">w</button>
+    <button onclick="addLetter(event)" letter-value="x" style="float: left; width: 40px; height: 40px;">x</button>
+    <button onclick="addLetter(event)" letter-value="y" style="float: left; width: 40px; height: 40px;">y</button>
+    <button onclick="addLetter(event)" letter-value="z" style="float: ; width: 40px; height: 40px;">z</button>
+    <!-- All of th eletter buttons with attributes of their letter values -->
+
+    <div id="wordHolder" style="height: 150px; width: 800px; background-color: #dedede;"></div>
+    <!-- div to hold the smaller divs created in the javascript -->
+    
+    <div id="guessdiv" style="height: 70px; width: 800px; background-color:#b3b1b1; font-size: 200%; text-align: left;"></div>
+    <!-- div that shows the letters you have already guessed -->
+    
+    <div id="response" style="height: 70px; width: 800px; background-color: #919191; font-size: 300%; text-align: center;"></div>
+    <!-- div that gives a correct or wrong response based on the button you clicked -->
+    
+    <script src="js/app.js"></script>
+</body>
+</html>
